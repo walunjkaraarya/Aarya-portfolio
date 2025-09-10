@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Aarya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-indigo-600">Portfolio</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-indigo-600">Home</a></li>
+          <li><a href="#about" class="hover:text-indigo-600">About</a></li>
+          <li><a href="#skills" class="hover:text-indigo-600">Skills</a></li>
+          <li><a href="#qualification" class="hover:text-indigo-600">Qualification</a></li>
+          <li><a href="#portfolio" class="hover:text-indigo-600">Portfolio</a></li>
+          <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
+    <h2 class="text-4xl md:text-6xl font-bold">Hi, I'm Aarya</h2>
+    <p class="mt-4 text-lg md:text-2xl">Software Engineer & Front-End Developer</p>
+    <p class="mt-2 max-w-2xl">Crafting digital experiences with clean code and innovative solutions.</p>
+    <div class="mt-6 space-x-4">
+      <a href="#portfolio" class="px-6 py-3 bg-white text-indigo-600 font-medium rounded-lg shadow hover:bg-gray-100">View My Work</a>
+      <a href="#contact" class="px-6 py-3 bg-indigo-700 font-medium rounded-lg shadow hover:bg-indigo-800">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto py-20 px-6">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <img src="https://via.placeholder.com/400x400" alt="Developer portrait" class="rounded-2xl shadow-lg">
+      <div>
+        <h3 class="text-3xl font-bold mb-4 text-indigo-600">About Me</h3>
+        <p class="text-gray-600 mb-4">
+          With over 6 months of experience in software development, I specialize in creating robust, scalable applications that solve real-world problems. My passion lies in turning complex challenges into elegant digital solutions.
+        </p>
+        <p class="text-gray-600">
+          I believe in clean code, user-centered design, and continuous learning. Whether it's front-end magic or back-end logic, I'm always excited to tackle new technologies and deliver exceptional results.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12 text-indigo-600">Technical Skills</h3>
+      <div class="grid md:grid-cols-2 gap-10">
+        <!-- Skill Bars -->
+        <div>
+          <p class="mb-2 font-medium">Html</p>
+          <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+            <div class="bg-indigo-600 h-3 rounded-full" style="width:95%"></div>
+          </div>
+          <p class="mb-2 font-medium">CSS</p>
+          <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+            <div class="bg-indigo-600 h-3 rounded-full" style="width:95%"></div>
+          </div>
+          <p class="mb-2 font-medium">JavaScript</p>
+          <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+            <div class="bg-indigo-600 h-3 rounded-full" style="width:95%"></div>
+          </div>
+          <p class="mb-2 font-medium">React.js</p>
+          <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+            <div class="bg-indigo-600 h-3 rounded-full" style="width:90%"></div>
+          </div>
+          <p class="mb-2 font-medium">Node.js</p>
+          <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+            <div class="bg-indigo-600 h-3 rounded-full" style="width:88%"></div>
+          </div>
+          <p class="mb-2 font-medium">Python</p>
+          <div class="w-full bg-gray-200 rounded-full h-3">
+            <div class="bg-indigo-600 h-3 rounded-full" style="width:85%"></div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div>
+          <h4 class="text-xl font-semibold mb-4">Tools & Technologies</h4>
+          <ul class="grid grid-cols-2 gap-4">
+            <li class="bg-white p-4 rounded-lg shadow text-center">React</li>
+            <li class="bg-white p-4 rounded-lg shadow text-center">Node.js</li>
+            <li class="bg-white p-4 rounded-lg shadow text-center">Python</li>
+            <!-- <li class="bg-white p-4 rounded-lg shadow text-center"></li> -->
+            <li class="bg-white p-4 rounded-lg shadow text-center">Git</li>
+            <!-- <li class="bg-white p-4 rounded-lg shadow text-center">AWS</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Qualifications Section -->
+  <section id="qualification" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-12 text-indigo-600">Qualifications</h3>
+    <div class="grid md:grid-cols-2 gap-10">
+      <!-- Education -->
+      <div>
+        <h4 class="text-xl font-semibold mb-6">Education</h4>
+        <div class="mb-6">
+          <h5 class="font-bold">Master in Computer Science (2020-2022)</h5>
+          <p class="text-gray-600">Stanford University - Specialized in AI & Machine Learning</p>
+        </div>
+        <div>
+          <h5 class="font-bold">Bachelor in Software Engineering (2016-2020)</h5>
+          <p class="text-gray-600">MIT - Focus on Web Technologies & Software Architecture</p>
+        </div>
+      </div>
+      <!-- Experience -->
+      <div>
+        <h4 class="text-xl font-semibold mb-6">Experience</h4>
+        <div class="mb-6">
+          <h5 class="font-bold">Senior Software Engineer (2022-Present)</h5>
+          <p class="text-gray-600">Google - Leading front-end development for Google Cloud Platform</p>
+        </div>
+        <div>
+          <h5 class="font-bold">Full Stack Developer (2020-2022)</h5>
+          <p class="text-gray-600">Amazon - Developed microservices architecture for e-commerce platform</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12 text-indigo-600">Portfolio</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold">Project One</h4>
+            <p class="text-gray-600 text-sm">A modern web app built with React and Node.js.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold">Project Two</h4>
+            <p class="text-gray-600 text-sm">Mobile app development for iOS and Android.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold">Project Three</h4>
+            <p class="text-gray-600 text-sm">Cloud-based solution with AWS integration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-12 text-indigo-600">Contact Me</h3>
+    <form class="max-w-xl mx-auto space-y-6">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg focus:ring focus:ring-indigo-200">
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg focus:ring focus:ring-indigo-200">
+      <textarea rows="5" placeholder="Your Message" class="w-full p-3 border rounded-lg focus:ring focus:ring-indigo-200"></textarea>
+      <button class="w-full py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-6 text-center">
+    <p>© 2025 Aarya | Built with ❤️ using Tailwind CSS</p>
+  </footer>
+
+</body>
+</html>
